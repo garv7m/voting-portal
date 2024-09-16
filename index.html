@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting Portal</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Voting Portal</h1>
+        <div class="add-question">
+            <h2>Add a Question</h2>
+            <input type="text" id="question" placeholder="Enter your question here">
+            <input type="text" id="option1" placeholder="Option 1">
+            <input type="text" id="option2" placeholder="Option 2">
+            <input type="text" id="option3" placeholder="Option 3">
+            <input type="text" id="option4" placeholder="Option 4">
+            <button id="addQuestionBtn">Add Question</button>
+        </div>
+        <div class="questions-list" id="questionsList">
+            <h2>Questions</h2>
+        </div>
+        <canvas id="voteChart" style="display:none;"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
